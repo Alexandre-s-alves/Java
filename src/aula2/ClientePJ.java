@@ -9,21 +9,24 @@ package aula2;
  *
  * @author alexa
  */
-public class ClientePJ extends Cliente{
+public class ClientePJ extends Cliente {
     
     private String cnpj;
     
-    public ClientePJ(String nome,String endereco, String cnpj){
+    public ClientePJ(String nome,String endereco, String cnpj) {
         super(nome,endereco);
-        this.cnpj=cnpj;
+        this.cnpj = cnpj;
     }
-    public String getCnpj(){
+    
+    public String getCnpj() {
         return cnpj;
     }
-    public void setCnpj(String cnpj){
-        this.cnpj=cnpj;
+    
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
     }
+    
     public String toString( ){
-        return super.toString()+"cnpj"+cnpj;
+        return super.toString() + "cnpj" + cnpj;
     }
 }

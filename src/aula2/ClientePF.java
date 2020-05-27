@@ -9,23 +9,25 @@ package aula2;
  *
  * @author alexa
  */
-public class ClientePF extends Cliente{
+public class ClientePF extends Cliente {
     
     private String cpf;
     
-    public ClientePF(String nome, String endereco, String cpf){
+    public ClientePF (String nome, String endereco, String cpf) {
         super(nome, endereco);
-        this.cpf=cpf;
+        this.cpf = cpf;
     }
     
-    public String getCpf(){
+    public String getCpf() {
         return cpf;
     }
-    public void setCpf(String cpf){
-        this.cpf=cpf;
+    
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
+    
     public String toString( ){
-        return super.toString()+"cpf"+cpf;
+        return super.toString() + "cpf" + cpf;
     }
     
     

@@ -11,15 +11,16 @@ package aula2;
  */
 public class ClienteApp {
     
-    public static void main(String[]args){
+    public static void main(String[]args) {
         
         ClientePF clientepf1 = new ClientePF (" asdfas "," asdad "," 312412543 ");
-                
+        
         ClientePJ clientepj1 = new ClientePJ (" asdghs "," adfh "," 3345677 ");
         
         System.out.println("Nome do objeto : "+clientepf1.getNome()+ "  Endereço do objeto : "+ clientepf1.getEndereco());
         
         System.out.println(clientepf1.toString());
+        
         System.out.println(clientepj1.toString());
         
     }

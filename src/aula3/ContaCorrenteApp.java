@@ -10,13 +10,13 @@ package aula3;
  * @author alexa
  */
 public class ContaCorrenteApp {
-    public static void main(String[]args){
+    
+    public static void main(String[]args) {
         
         ContaCorrente contacomum = new ContaCorrente(123,444);
+        
         ContaCorrente contaespecial = new ContaCorrente(123,445,10000.00f);
-        
-        
-        
+          
     }
     
 }
